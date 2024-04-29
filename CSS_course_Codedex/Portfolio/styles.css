@@ -1,0 +1,104 @@
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    height: 100px;
+}
+
+header > h1{
+    font-size: 20px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+nav{
+    margin-top: 20px;
+}
+
+nav > a{
+    width: 33%;
+    border: green thick;
+    border-radius: 5px;
+    margin-top: 50%;
+    margin-bottom: 2.5%;
+    margin-left: 40px;
+}
+
+main{
+    background-color: azure;
+    margin: auto;
+    position: sticky;
+}
+
+#about{
+    height: 380px;
+}
+
+#about > h1{
+    font-size: 20px;
+}
+
+#about > p{
+    text-align: center;
+    margin-left: 2.5%;
+}
+
+#about > img{
+    width: 25%;
+    height: 65%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: auto;
+    border-radius: 5px;
+    box-shadow: -10px 10px black;
+}
+
+#projects{
+    height: 380px;
+}
+
+#project > h1{
+    font-size: 20px;
+    margin-top: 2.5%;
+}
+
+.class-project{
+    width: 400px;
+    text-align: center;
+    display: inline-block;
+    position: sticky;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.class-project > a{
+    display: block;
+    margin: 10px auto;
+}
+
+footer{
+    height: 60px;
+    background-color: antiquewhite;
+    margin: auto;
+    position: sticky;
+    bottom: 0;
+}
+
+.contact-media{
+    display: inline;
+}
+
+.contact-media > a{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+}

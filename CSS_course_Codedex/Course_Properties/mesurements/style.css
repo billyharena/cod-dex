@@ -1,0 +1,13 @@
+/* 
+    absolute : represente by number with px or pt, it's keep the value that we give to its.
+    relative : represente by number with %; it's change the size in function of the window, relative is like much responsive;
+    with letter we use em or rem
+*/
+
+img#absolute{
+    width: 100px;
+}
+
+img#relative{
+    width: 50%;
+}

@@ -1,0 +1,47 @@
+/* 
+    GROUPING :
+    instead of this :
+    ul {
+        border: 1px solid;
+        width: 50px;
+    }
+
+    ol {
+        border: 1px solid;
+        width: 50px;
+    }
+    we can also do that : 
+    ul, ol {
+        border: 1px solid;
+        width: 50px;
+    }
+
+    COMBINING :
+    ul > li {
+        border: 1px solid;
+        width: 50px;
+    }
+    to select the child element
+*/
+
+ul, ol{
+    border: 1px solid;
+    width: 200px;
+}
+
+ul{
+    background-color: lightgreen;
+}
+
+ol{
+    background-color: skyblue;
+    color: white;
+}
+
+ul > h2{
+    text-decoration: underline wavy 3px brown;
+}
+
+ol > h2{
+    text-decoration: underline wavy 3px indigo;
+}

@@ -1,0 +1,51 @@
+.gallery-item{
+    height: 100px;
+    width: 100px;
+}
+
+#item-1, #item-2, #item-3{
+    display: block;
+}
+
+#item-2{
+    margin-left: 100px;
+}
+
+#item-1{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+
+#item-5, #item-7{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    top: 100px;
+    left: 100px;
+}
+
+#item-4{
+    position: fixed;
+    height: 150px;
+    width: 100px;
+}
+
+
+#item-6{
+    position: sticky;
+    height: 500px;
+    width: 200px;
+    z-index: -1;
+    left: 500px;
+    bottom: 100px;
+}
+
+#item-8{
+    position: absolute;
+    height: 500px;
+    width: 200px;
+    top: 200px;
+    right: 200px;
+}

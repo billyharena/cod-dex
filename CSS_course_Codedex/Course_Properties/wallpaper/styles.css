@@ -1,0 +1,10 @@
+div#outer{
+    width: 500px;
+    height: 500px;
+    background-color: #008000;
+}
+
+div#inner{
+    background-size: cover;
+    background-repeat: repeat;
+}

@@ -1,0 +1,9 @@
+/*
+    div(selector){
+        property:value;
+    }
+ */
+ p{
+    color: red;
+    font-size: 25px;
+ }

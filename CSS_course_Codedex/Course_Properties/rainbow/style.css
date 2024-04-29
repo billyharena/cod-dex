@@ -1,0 +1,23 @@
+/* 
+    color{
+        color : blue;
+    }
+    color{
+        color : rgb(0, 0, 255);
+    }
+    color{
+        color : #ff0000;
+    }
+*/
+
+#first-color {
+   color: rgb(0, 255, 0);
+}
+
+#second-color {
+    color: #ffff00;
+}
+
+#third-color {
+    color : blue;
+}

@@ -1,0 +1,49 @@
+/* 
+    selector used to determine which html element get styled
+    ex : 
+        div(selector){
+            style here
+        }
+
+    CLASS AND ID SELECTOR
+    class are selected by a .
+    id by a #
+    ex :
+        .class-name{
+            style here
+        }
+        #id-name{
+            style here
+        }
+    we can also do that to be more specific :
+        div.class-name{
+            style here
+        }
+        div#id-name{
+            style here
+        }
+*/
+
+div{
+    border: 1px solid;
+    text-align: center;
+}
+
+.line{
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+    text-decoration: underline;
+}
+
+#roses{
+    background-color: red;
+}
+
+#violets{
+    background-color: violet;
+}
+
+#sugar{
+    background-color: beige;
+}
